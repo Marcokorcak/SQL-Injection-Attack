@@ -171,9 +171,11 @@ database.
 
 
 # Task 3.1: Modify your own salary
+<img src= "https://user-images.githubusercontent.com/77298953/210661517-a293e01f-53c7-417c-84c7-6e3c5aedd6c2.PNG" width=70% height=70%>
 
 SQL query that was inputted in order to modify salary
 
+<img src= "https://user-images.githubusercontent.com/77298953/210661567-7dbd489d-0975-451b-b5d9-3c0ec54c6920.PNG" width=70% height=70%>
 
 Results when the previous SQL query was ran
 
@@ -196,11 +198,11 @@ nickname field was edited, the SQL query was executed, forcing Alice’s salary 
 
 # Task 3.2: Modify other peoples’ salary
 
-<img src= "https://user-images.githubusercontent.com/77298953/210661517-a293e01f-53c7-417c-84c7-6e3c5aedd6c2.PNG" width=70% height=70%>
+<img src= "https://user-images.githubusercontent.com/77298953/210661857-829da7a3-3534-4f94-9c75-584f1a96f697.PNG" width=70% height=70%>
 
 SQL query that was entered in order to change Boby’s salary
 
-<img src= "https://user-images.githubusercontent.com/77298953/210661567-7dbd489d-0975-451b-b5d9-3c0ec54c6920.PNG" width=70% height=70%>
+<img src= "https://user-images.githubusercontent.com/77298953/210661894-a36e5a18-8603-4826-907a-3e395132cf6f.PNG" width=70% height=70%>
 
 Results of running the SQL commands
 
