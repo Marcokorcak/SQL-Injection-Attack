@@ -290,6 +290,7 @@ view of the boundaries is consistent in the server-side code and in the database
 visi[ted](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)[www.seed-server.com/defense](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)which prompted us with a login page. Prior to making any alterations to the
 unsafe.php file, 
 all of the information relating to the account was displayed when
+
 logging into a specific user’s account and when performing a SQL injection attack. This is an
 
 example of a vulnerability that we needed to fix to prevent SQL Injection attacks from being
