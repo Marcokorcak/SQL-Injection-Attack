@@ -20,6 +20,7 @@ following topics:
 
 
 # Lab Environment Setup
+<img src= "https://user-images.githubusercontent.com/77298953/210660510-1002d71c-0d47-459e-941d-3f4ceb9e979c.PNG" width=70% height=70%>
 
 Lab Setup Image
 
@@ -39,9 +40,11 @@ environment in the virtual machine.
 
 
 # Task 1: Get Familiar with SQL Statements
+<img src= "https://user-images.githubusercontent.com/77298953/210660629-9a8ed0b2-ef38-49ab-b92f-a04547295cec.PNG" width=70% height=70%>
 
 Image of the data stored in credential table for Alice
 
+</br>
 
 
 ## Task 1 Explanation 
