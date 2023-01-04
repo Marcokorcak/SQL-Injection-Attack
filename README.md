@@ -24,8 +24,8 @@ following topics:
 * [Task 2-2 SQL Injection Attack from command line](#Task-2-2-SQL-Injection-Attack-from-command-line)
 * [Task 2-3 Append a new SQL statement](#Task-2-3-Append-a-new-SQL-statement)
 * [Task 3-1 Modify your own salary](#Task-3-1-Modify-your-own-salary)
-* [Task 3-2 Modify other peoples’ salary](#Task-3-2-Modify-other-peoples’-salary)
-* [Task 3-3 Modify other peoples’ password](#Task-3-3-Modify-other-peoples’-password)
+* [Task 3-2 Modify other peoples salary](#Task-3-2-Modify-other-peoples-salary)
+* [Task 3-3 Modify other peoples password](#Task-3-3-Modify-other-peoples-password)
 * [Task 4 Countermeasure - Prepared Statement](#Task-4-Countermeasure-Prepared-Statement)
 
 # Lab Setup
@@ -203,7 +203,7 @@ edited, the user’s nickname. This allowed us to successfully edit Alice’s sa
 nickname field was edited, the SQL query was executed, forcing Alice’s salary to be altered.
 
 
-# Task 3-2 Modify other peoples’ salary
+# Task 3-2 Modify other peoples salary
 
 <img src= "https://user-images.githubusercontent.com/77298953/210661857-829da7a3-3534-4f94-9c75-584f1a96f697.PNG" width=70% height=70%>
 
@@ -228,7 +228,7 @@ with no errors. In order to check if the query ran correctly, we logged into Bob
 that his salary was updated to $1.
 
 
-# Task 3-3 Modify other peoples’ password
+# Task 3-3 Modify other peoples password
 <img src= "https://user-images.githubusercontent.com/77298953/210662177-68b460c7-2749-4577-ae71-d5b632c178fc.PNG" width=70% height=70%>
 
 The hashed password that was generated in the terminal using Sha1
