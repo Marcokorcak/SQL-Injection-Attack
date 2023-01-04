@@ -263,13 +263,19 @@ indicating that his password has been compromised and modified in this attack.
 
 # Task 4: Countermeasure - Prepared Statement
 
+<img src= "https://user-images.githubusercontent.com/77298953/210662514-91d10d1a-ac3e-416a-b71d-55480af86250.PNG" width=70% height=70%>
+
 Image of the prepared statement that was added to the unsafe.php file
+<img src= "https://user-images.githubusercontent.com/77298953/210662548-887fe0be-1411-4732-85d2-6e99794a0848.PNG" width=70% height=70%>
 
 Output when logging in with a valid account
 
-Output when not logging in properly and trying a SQL injection attack after prepared statement
+<img src= "https://user-images.githubusercontent.com/77298953/210662573-3a5cafb9-5eeb-41aa-897a-858be3a4fb29.PNG" width=70% height=70%>
 
+Output when not logging in properly and trying a SQL injection attack after prepared statement
 was implemented
+
+<img src= "https://user-images.githubusercontent.com/77298953/210662621-f7148e98-d50d-49a8-b665-68582c74cd60.PNG" width=70% height=70%>
 
 Output when the prepared statement was implemented and logged in properly
 
@@ -281,9 +287,7 @@ of the boundaries when running a SQL statement. Prepared statements are used to 
 
 view of the boundaries is consistent in the server-side code and in the database. For this task we
 
-visi[ted](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)[www.seed-server.com/defense](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)which prompted us with a login page. Prior to making any
-
-alterations to the unsafe.php file, all of the information relating to the account was displayed when
+visi[ted](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)[www.seed-server.com/defense](http://www.seed-server.com/defense)[ ](http://www.seed-server.com/defense)which prompted us with a login page. Prior to making any alterations to the unsafe.php file, all of the information relating to the account was displayed when
 
 logging into a specific user’s account and when performing a SQL injection attack. This is an
 
