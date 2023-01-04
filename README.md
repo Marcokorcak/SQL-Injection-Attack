@@ -196,12 +196,13 @@ nickname field was edited, the SQL query was executed, forcing Alice’s salary 
 
 # Task 3.2: Modify other peoples’ salary
 
+<img src= "https://user-images.githubusercontent.com/77298953/210661517-a293e01f-53c7-417c-84c7-6e3c5aedd6c2.PNG" width=70% height=70%>
+
 SQL query that was entered in order to change Boby’s salary
 
+<img src= "https://user-images.githubusercontent.com/77298953/210661567-7dbd489d-0975-451b-b5d9-3c0ec54c6920.PNG" width=70% height=70%>
+
 Results of running the SQL commands
-
-
-
 
 
 ## Task 3.2 Explanation
