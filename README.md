@@ -62,13 +62,17 @@ character is used to print out all columns for the employee specified, which in 
 
 # Task 2.1: SQL Injection Attack from webpage
 
+<img src= "https://user-images.githubusercontent.com/77298953/210660840-cd8dc6df-fe55-4769-b75f-3421cf67b2bb.PNG" width=70% height=70%>
+
 Image of unsafe\_home.php file contents
+
+<img src= "https://user-images.githubusercontent.com/77298953/210660887-a022c7c6-c12b-4e7f-a483-fa2d3c60728a.PNG" width=70% height=70%>
 
 Image of the input used to gain access to the admin account
 
+<img src= "https://user-images.githubusercontent.com/77298953/210660913-f9979ac2-2577-4f15-a968-be347652e967.PNG" width=70% height=70%>
+
 Results displayed when logging into the admin account
-
-
 
 
 ## Task 2.1 Explanation
