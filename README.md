@@ -222,16 +222,22 @@ that his salary was updated to $1.
 
 
 # Task 3.3: Modify other peoples’ password
+<img src= "https://user-images.githubusercontent.com/77298953/210662177-68b460c7-2749-4577-ae71-d5b632c178fc.PNG" width=70% height=70%>
 
 The hashed password that was generated in the terminal using Sha1
 
+<img src= "https://user-images.githubusercontent.com/77298953/210662207-1f212e64-772a-45a5-8f3a-3112795dbcba.PNG" width=70% height=70%>
+
+<img src= "https://user-images.githubusercontent.com/77298953/210662247-ef8e5989-f0b6-4d3f-b046-4211ae65c789.PNG" width=70% height=70%>
+
 Image of the new hashed password generated stored in the database confirming it was successfully changed
 
+<img src= "https://user-images.githubusercontent.com/77298953/210662287-95b742ad-5565-4c9d-a6db-cf46244c57d4.PNG" width=70% height=70%>
 
 Image of Boby’s profile with the new hashed password
 
 
-## Task 3.2 Explanation
+## Task 3.3 Explanation
 In this task, we modified Boby’s password by first using the sha1() hash function
 
 to hash a new password. In order to do so, we used the following command to change his
