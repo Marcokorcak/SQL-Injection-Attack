@@ -26,7 +26,7 @@ following topics:
 * [Task 3-1 Modify your own salary](#Task-3-1-Modify-your-own-salary)
 * [Task 3-2 Modify other peoples salary](#Task-3-2-Modify-other-peoples-salary)
 * [Task 3-3 Modify other peoples password](#Task-3-3-Modify-other-peoples-password)
-* [Task 4 Countermeasure - Prepared Statement](#Task-4-Countermeasure-Prepared-Statement)
+* [Task 4 Countermeasure Prepared Statement](#Task-4-Countermeasure-Prepared-Statement)
 
 # Lab Setup
 <img src= "https://user-images.githubusercontent.com/77298953/210660510-1002d71c-0d47-459e-941d-3f4ceb9e979c.PNG" width=70% height=70%>
@@ -268,7 +268,7 @@ logged into Boby’s account without any issues using the new hashed password we
 indicating that his password has been compromised and modified in this attack.
 
 
-# Task 4 Countermeasure - Prepared Statement
+# Task 4 Countermeasure Prepared Statement
 
 <img src= "https://user-images.githubusercontent.com/77298953/210662514-91d10d1a-ac3e-416a-b71d-55480af86250.PNG" width=70% height=70%>
 
