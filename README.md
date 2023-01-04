@@ -137,7 +137,11 @@ enabling us to access the data stored in the administrator without specifying it
 
 # Task 2.3: Append a new SQL statement
 
+<img src= "https://user-images.githubusercontent.com/77298953/210661273-8eafe2ea-4e13-42cc-96e3-72d526a811fc.PNG" width=70% height=70%>
+
 Error thrown when trying to run two SQL statements
+
+<img src= "https://user-images.githubusercontent.com/77298953/210661336-03ea56b4-00ad-4661-b6c8-343054af705b.PNG" width=70% height=70%>
 
 File contents of unsafe\_home.php
 
