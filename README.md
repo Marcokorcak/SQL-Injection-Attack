@@ -103,6 +103,8 @@ administrator account.
 
 # Task 2.2: SQL Injection Attack from command line
 
+<img src= "https://user-images.githubusercontent.com/77298953/210661110-482189b8-cbc1-4f1e-8982-4e87aaf427e0.PNG" width=70% height=70%>
+
 Output of curl command showing a functional SQL injection attack
 
 
