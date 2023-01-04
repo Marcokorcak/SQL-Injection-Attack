@@ -17,9 +17,18 @@ following topics:
 * SQL injection
 * Prepared statement 
 
+## Table of contents
+* [Lab Setup](#Lab-Setup)
+* [Task 1 Get Familiar with SQL Statements](#Task-1-Get-Familiar-with-SQL-Statements)
+* [Task 2-1 SQL Injection Attack from webpage](#Task-2-1-SQL-Injection-Attack-from-webpage)
+* [Task 2-2 SQL Injection Attack from command line](#Task-2-2-SQL-Injection-Attack-from-command-line)
+* [Task 2-3 Append a new SQL statement](#Task-2-3-Append-a-new-SQL-statement)
+* [Task 3-1 Modify your own salary](#Task-3-1-Modify-your-own-salary)
+* [Task 3-2 Modify other peoples’ salary](#Task-3-2-Modify-other-peoples’-salary)
+* [Task 3-3 Modify other peoples’ password](#Task-3-3-Modify-other-peoples’-password)
+* [Task 4 Countermeasure - Prepared Statement](#Task-4-Countermeasure-Prepared-Statement)
 
-
-# Lab Environment Setup
+# Lab Setup
 <img src= "https://user-images.githubusercontent.com/77298953/210660510-1002d71c-0d47-459e-941d-3f4ceb9e979c.PNG" width=70% height=70%>
 
 Lab Setup Image
@@ -39,7 +48,7 @@ then started them using the “docker-compose up” command to ensure a smoothly
 environment in the virtual machine.
 
 
-# Task 1: Get Familiar with SQL Statements
+# Task 1 Get Familiar with SQL Statements
 <img src= "https://user-images.githubusercontent.com/77298953/210660629-9a8ed0b2-ef38-49ab-b92f-a04547295cec.PNG" width=70% height=70%>
 
 Image of the data stored in credential table for Alice
@@ -60,7 +69,7 @@ of an employee whose name is specified as Alice in the table, credential. In SQL
 character is used to print out all columns for the employee specified, which in this case is Alice.
 
 
-# Task 2.1: SQL Injection Attack from webpage
+# Task 2-1 SQL Injection Attack from webpage
 
 <img src= "https://user-images.githubusercontent.com/77298953/210660840-cd8dc6df-fe55-4769-b75f-3421cf67b2bb.PNG" width=70% height=70%>
 
@@ -75,7 +84,7 @@ Image of the input used to gain access to the admin account
 Results displayed when logging into the admin account
 
 
-## Task 2.1 Explanation
+## Task 2-1 Explanation
 For this task the objective was to perform a SQL Injection attack on the webpage so
 
 we can see employee information by logging in as an administrator. In order to accomplish this
@@ -101,14 +110,14 @@ around the original code because it gave us access without knowing the password 
 administrator account.
 
 
-# Task 2.2: SQL Injection Attack from command line
+# Task 2-2 SQL Injection Attack from command line
 
 <img src= "https://user-images.githubusercontent.com/77298953/210661110-482189b8-cbc1-4f1e-8982-4e87aaf427e0.PNG" width=70% height=70%>
 
 Output of curl command showing a functional SQL injection attack
 
 
-## Task 2.2 Explanation 
+## Task 2-2 Explanation 
 For this task in the lab, we performed an SQL injection attack via the command line
 
 using curl. This command line tool sent out an HTTP GET request to display the data on the admin
@@ -133,9 +142,7 @@ enabling us to access the data stored in the administrator without specifying it
 
 
 
-
-
-# Task 2.3: Append a new SQL statement
+# Task 2-3 Append a new SQL statement
 
 <img src= "https://user-images.githubusercontent.com/77298953/210661273-8eafe2ea-4e13-42cc-96e3-72d526a811fc.PNG" width=70% height=70%>
 
@@ -146,7 +153,7 @@ Error thrown when trying to run two SQL statements
 File contents of unsafe\_home.php
 
 
-## Task 2.3 Explanation 
+## Task 2-3 Explanation 
 For this task the objective was to modify the database using the same vulnerability
 
 exploited in the task above but using two SQL statements. For this attack the second statement
@@ -170,7 +177,7 @@ this extension was used, the appending tactic could not be used to successfully 
 database.
 
 
-# Task 3.1: Modify your own salary
+# Task 3-1 Modify your own salary
 <img src= "https://user-images.githubusercontent.com/77298953/210661517-a293e01f-53c7-417c-84c7-6e3c5aedd6c2.PNG" width=70% height=70%>
 
 SQL query that was inputted in order to modify salary
@@ -180,7 +187,7 @@ SQL query that was inputted in order to modify salary
 Results when the previous SQL query was ran
 
 
-## Task 3.1 Explanation
+## Task 3-1 Explanation
 In this task, we exploited the SQL injection vulnerability in the Edit-Profile page
 
 and modified Alice’s salary. We injected an SQL statement into the Nickname field on Alice’s
@@ -196,7 +203,7 @@ edited, the user’s nickname. This allowed us to successfully edit Alice’s sa
 nickname field was edited, the SQL query was executed, forcing Alice’s salary to be altered.
 
 
-# Task 3.2: Modify other peoples’ salary
+# Task 3-2 Modify other peoples’ salary
 
 <img src= "https://user-images.githubusercontent.com/77298953/210661857-829da7a3-3534-4f94-9c75-584f1a96f697.PNG" width=70% height=70%>
 
@@ -207,7 +214,7 @@ SQL query that was entered in order to change Boby’s salary
 Results of running the SQL commands
 
 
-## Task 3.2 Explanation
+## Task 3-2 Explanation
 For this task, the objective was to modify other peoples’ salaries, so we specifically
 
 wanted to change Boby’s salary to $1. In order to complete this task, we utilized the same strategy
@@ -221,7 +228,7 @@ with no errors. In order to check if the query ran correctly, we logged into Bob
 that his salary was updated to $1.
 
 
-# Task 3.3: Modify other peoples’ password
+# Task 3-3 Modify other peoples’ password
 <img src= "https://user-images.githubusercontent.com/77298953/210662177-68b460c7-2749-4577-ae71-d5b632c178fc.PNG" width=70% height=70%>
 
 The hashed password that was generated in the terminal using Sha1
@@ -237,7 +244,7 @@ Image of the new hashed password generated stored in the database confirming it 
 Image of Boby’s profile with the new hashed password
 
 
-## Task 3.3 Explanation
+## Task 3-3 Explanation
 In this task, we modified Boby’s password by first using the sha1() hash function
 
 to hash a new password. In order to do so, we used the following command to change his
@@ -261,7 +268,7 @@ logged into Boby’s account without any issues using the new hashed password we
 indicating that his password has been compromised and modified in this attack.
 
 
-# Task 4: Countermeasure - Prepared Statement
+# Task 4 Countermeasure - Prepared Statement
 
 <img src= "https://user-images.githubusercontent.com/77298953/210662514-91d10d1a-ac3e-416a-b71d-55480af86250.PNG" width=70% height=70%>
 
